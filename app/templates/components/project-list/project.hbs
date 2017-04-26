@@ -1,0 +1,11 @@
+<div class="card">
+  <h4>Description: {{project.description}}</h4>
+  <h4>Technologies used:</h4>
+  {{#each project.tech as |tech|}}
+    <ul>
+      <li>
+        {{tech}}
+      </li>
+    </ul>
+  {{/each}}
+</div>

@@ -17,3 +17,26 @@ a {
   padding: 30px;
   position: relative;
 }
+
+.project-hidden :not(:first-child) {
+  display: none;
+}
+
+.project-header:hover,
+.project-name:hover {
+  cursor: pointer;
+}
+
+.card {
+  float: left;
+}
+
+.image {
+  clear: both;
+  margin: 30px;
+  max-height: 300px;
+}
+
+.component {
+  clear: both;
+}
