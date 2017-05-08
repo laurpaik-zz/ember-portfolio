@@ -8,6 +8,11 @@ body {
   font-family: 'Righteous', cursive;
 }
 
+nav {
+  float: right;
+  font-size: 20px;
+}
+
 a {
   color: $pink;
 }
@@ -24,6 +29,7 @@ a {
 
 .project-header:hover,
 .project-name:hover {
+  color: $pink;
   cursor: pointer;
 }
 

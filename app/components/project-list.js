@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   classNames: ['portfolio'],
   classNameBindings: ['projectHidden'],
-  projectHidden: false,
+  projectHidden: true,
 
   actions: {
     toggleProjectDetail () {
