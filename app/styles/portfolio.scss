@@ -46,3 +46,18 @@ a {
 .component {
   clear: both;
 }
+
+.picture {
+  margin: 0 40%;
+
+  .profpic {
+    border: 2px solid $black;
+    border-radius: 100px;
+    height: 200px;
+    width: auto;
+  }
+}
+
+.description {
+  width: 500px;
+}
