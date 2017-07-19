@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('contact');
   this.route('projects', function() {});
   this.route('sign-in');
+  this.route('change-password');
 });
 
 export default Router;
