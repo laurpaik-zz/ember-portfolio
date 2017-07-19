@@ -10,6 +10,8 @@
 <footer>
   <div class='laurpaik-user'>
     {{#if isAuthenticated}}
+      {{#link-to "change-password"}}Change Password{{/link-to}}
+      <br/>
       <a href="#" {{action "signOut"}}>Sign Out</a>
     {{else}}
       {{#link-to "sign-in"}}Sign In{{/link-to}}

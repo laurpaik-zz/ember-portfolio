@@ -1,14 +1,8 @@
 <div class="card">
-  <h4 class="description">{{project.description}}</h4>
-  <h4>Technologies used:</h4>
-  {{#each project.tech as |tech|}}
-    <ul>
-      <li>
-        {{tech}}
-      </li>
-    </ul>
-  {{/each}}
-  <h4><a href='{{project.link}}'>Deployed app</a></h4>
-  <h4><a href='{{project.frontEnd}}'>Front-end Repo</a></h4>
-  <h4><a href='{{project.backEnd}}'>Back-end Repo</a></h4>
+  <h2>{{project.title}}</h2>
+  {{project.description}}
+
+  <li class="links"><a href='{{project.link}}'>Deployed app</a></li>
+  <li class="links"><a href='{{project.frontEnd}}'>Front-end Repo</a></li>
+  <li class="links"><a href='{{project.backEnd}}'>Back-end Repo</a></li>
 </div>
